@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../styles/style.css">
+   <title>Форма реєстрації</title>
+</head>
+<body>
+   <main>
+      <form action="">
+      <div class="name-form">
+         <label for="fullname">Повне ім'я</label>
+         <input type="text" id="fullname" required>
+      </div>
+      <div class="mail-form">
+         <label for="email">Email</label>
+         <input type="email" id="email" required>
+      </div>
+      <div class="password-form">
+         <label for="password">Пароль</label>
+         <input type="password" id="password" required>
+      </div>
+      <div class="password-again-form">
+         <label for="password-again">Пароль ще раз</label>
+         <input type="password" id="password-again" required>
+      </div>
+      <div class="sex-form">
+         <label for="sex">Стать</label>
+         <p><input type="radio" id="sex-1">чоловіча</p>
+         
+         <p><input type="radio" id="sex-2">жіноча</p>
+         
+         
+      </div>
+      <div class="age-form">
+         <label for="age">Вік</label>
+         <input type="number" id="age" required>
+      </div>
+      <div class="course-form">
+         <label for="course">Виберіть курс</label>
+         <select name="course" id="course" required>
+            <option value="choice-a-course">-=Виберіть курс=-</option>
+            <option value="html_css">HTML, CSS</option>
+            <option value="java_script">Java Script</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+         </select>  
+      </div>
+      <div class="full-adress-form">
+         <label for="fulladress">Повна адреса</label>
+         <textarea name="fulladress" id="fulladress" cols="19" rows="6" placeholder=
+         "Країна, регіон, місто/селище, вулиця" required></textarea>
+      </div>
+      <div class="agreement-form">
+         <input type="checkbox" id="agreement" required>
+         <label for="agreement">Я погоджуюсь з обробкою персональних даних</label>
+      </div>
+      <div class="btn">
+         <button type="reset" class="btn1">Очистити форму</button>
+         <button type="submit" class="btn2">Зареєструватися</button>
+      </div>
+      </form>
+   </main>
+</body>
+</html>
