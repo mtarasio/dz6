@@ -26,23 +26,32 @@ div {
 }
 input, select {
    margin-right: 80px;
-   
 }
 textarea {
    margin-right: 80px;
    resize: none;
 }
-#sex-1 {
-   margin-right: 1px;
-   margin-left: 167px;
+
+.sex-form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+     
 }
-#sex-2 {
-   margin-left: 5px;
-   margin-right: 1px;
+
+#sex-1, #sex-2 {
+   margin-right: 5px;  
 }
+
+.sex-form-radio {
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+}
+
 #agreement {
    margin-right: 5px;
 }
+
 .btn1 {
    background-color: crimson;
    font-size: 20px;
